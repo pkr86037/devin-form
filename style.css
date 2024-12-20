@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+    font-family: Arial, sans-serif;
+    background-color:rgba(169, 169, 169, 0.236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cantaner{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 50px;
+}
+.joint{
+   display: flex;
+    height: 35px;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.449);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px ;
+}
+#state{
+    width: 304px;
+
+}
+
+input{
+    position: relative;
+    top: 1.2px;
+    height: 30px;
+    width: 300px;
+    border: none;
+}
+.icon {
+    background-color:rgba(169, 169, 169, 0.236);
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px ;
+
+}
+.hosting{
+    display: flex;
+}
+.text,area{
+    display: flex;
+    height: 50px;
+    width:300px 
+}
+button{
+    margin: 20px;
+    padding: 12px;
+    width: 100px;
+    background-color: orange;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color:white;
+}
+.radio-class{
+    display: flex;
+    
+}
+.radio{
+    position: relative;
+    right: 90px;
+    font-size: 16px;
+}
+#tick{
+    position: relative;
+    right: 130px;
+    bottom:9px;
+}
+.project{
+    display: flex;
+    margin-top: 10px;
+}
+.area{
+    display: flex;
+    margin-left: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    height: 60px;
+    width: 335px;
+}
+#describe{
+    width: 90%;
+}
+.but{
+    margin-left: 182px;
+}
+h2{
+    color:orange;
+}
